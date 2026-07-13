@@ -49,7 +49,7 @@ main{
     justify-content: center
 }
 
-.secao-menu{
+.secao_menu{
     width: 100%;
     
     gap: 12px;
@@ -63,15 +63,15 @@ main{
 
 }
 
-.secao-menu  h2{
+.secao_menu  h2{
     font-size: 32px;
 }
 
-.secao-menu p{
+.secao_menu p{
     font-size: 14px;
 }
 
-.secao-menu img{
+.secao_menu img{
     width: 60px;
     height: 60px;
 
@@ -92,7 +92,7 @@ main{
 
 }
 
-.add-itens{
+.add_itens{
     width: 272px;
     height: 54px;
     display: flex;
@@ -108,7 +108,7 @@ main{
 
 }
 
-.edit-itens{
+.edit_itens{
     width: 196.11428833007812px;
     height: 54px;
     display: flex;
@@ -126,7 +126,7 @@ main{
 
 }
 
-.edit-itens img{
+.edit_itens img{
     width: 28px;
     height: 28px;
     border-width: 3px;

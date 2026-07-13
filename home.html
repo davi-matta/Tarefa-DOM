@@ -18,7 +18,7 @@
 
 
     <main>
-        <section class="secao-menu">
+        <section class="secao_menu">
             
             <img src="/assets/carrinho.svg" alt="Ícone carrinho de compras">
             
@@ -27,12 +27,43 @@
             <p>Toque em "+ adicionar item" para começar</p>
 
             <div class="acoes">
-                <button class="add-itens">+ adicionar itens</button>
+                <button class="add_itens">+ adicionar itens</button>
 
-                <button class="edit-itens"><img src="/assets/lapis-edição.png" alt="Lápis de edição">Editar lista</button>
+                <button class="edit_itens"><img src="/assets/lapis-edição.png" alt="Lápis de edição">Editar lista</button>
             </div>
         </section>
 
     </main>
+
+    <dialog id="modal_adicionar">
+        <div class="modal_header">
+            <h2>Adicionar item</h2>
+            <button class="botao_fechar">X</button>
+        </div>
+
+        <form>
+            <div class="area_input">
+                <label for="nome_item">NOME DO ITEM</label>
+                <input type="text" id="nome_item" placeholder="Ex: Leite integral">
+            </div>
+
+            <div class="area_input">
+                <label for="qtd_item">Quantidade (opcional)</label>
+                <input type="text" id="qtd_item"  placeholder="Ex: 2 unidades, 500g...">
+            </div>
+
+            <div class="modal_acoes">
+                <button type="button" class="botao_cancelar">Cancelar</button>
+                <button type="button" class="botao_adicionar">Adicionar</button>
+
+            </div>
+        </form>
+
+    </dialog>
+
+
+
+    <script src="/DOM.js"></script>
+
 </body>
 </html>
