@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/modal_adição.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
@@ -43,13 +44,15 @@
 
         <form>
             <div class="area_input">
-                <label for="nome_item">NOME DO ITEM</label>
-                <input type="text" id="nome_item" placeholder="Ex: Leite integral">
-            </div>
+                <div id="area_item">
+                    <label for="nome_item">NOME DO ITEM</label>
+                    <input type="text" id="nome_item" placeholder="Ex: Leite integral">
+                </div>
 
-            <div class="area_input">
-                <label for="qtd_item">Quantidade (opcional)</label>
-                <input type="text" id="qtd_item"  placeholder="Ex: 2 unidades, 500g...">
+                <div id="area_qtd">
+                    <label for="qtd_item">QUANTIDADE (OPCIONAL)</label>
+                    <input type="text" id="qtd_item"  placeholder="Ex: 2 unidades, 500g...">
+                </div>
             </div>
 
             <div class="modal_acoes">
