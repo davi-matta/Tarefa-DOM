@@ -1,3 +1,5 @@
+
+
 let lista_de_compras = [];
 
 const estado_vazio = document.querySelector("#estado_vazio");
