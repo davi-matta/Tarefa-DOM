@@ -62,6 +62,13 @@ main{
     gap:16px
 
 }
+#estado_vazio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
 
 .secao_menu  h2{
     font-size: 32px;
