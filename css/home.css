@@ -126,9 +126,8 @@ main{
     border-width: 1px;
     background: #64AD36;
 
-    color: #F0EEFF;
-    font-size: 20px
-;
+    color: #FFFFFF;
+    font-size: 20px;
 
 
 }
@@ -138,6 +137,56 @@ main{
     height: 28px;
     border-width: 3px;
 
+}
+
+#lista_principal {
+    width: 640px; 
+    list-style: none; 
+    padding: 0;
+    margin-top: 32px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+}
+
+
+.item_verde {
+    width: 100%;
+    background-color: #64AD36;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    border-radius: 12px;
+    
+    
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 16px; 
+}
+
+.bolinha_amarela {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    min-width: 8px;
+    background: #FFD426;
+
+    border-radius: 50%;
+}
+
+.nome_produto {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.badge_qtd_principal {
+    background: #496AEDE5;
+    color: #FFFFFF;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 

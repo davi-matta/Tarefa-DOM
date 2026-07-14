@@ -49,7 +49,8 @@ function atualizar_telas() {
 
         let linha_principal = `
             <li class="item_verde">
-                <span class="nome_produto">• ${item.nome}</span>
+                <span class="bolinha_amarela"></span>
+                <span class="nome_produto"> ${item.nome}</span>
                 ${item.quantidade !== "" ? `<span class="badge_qtd_principal">${item.quantidade}</span>` : ""}
             </li>
         `;
